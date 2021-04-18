@@ -1,12 +1,6 @@
+$(document).ready(function() {
+  $("button#cipher").click(function() {
+    $("ul#user").prepend("<li>Hello!</li>");
+    $("ul#webpage").prepend("<li>Why hello there!</li>");
+  });
 
-
-  $("button#cipher").click(function(){
-    function add(number1, number2) {
-      return number1 + number2;
-    }
-
-
-  })
-  const number1 = parsInt(prompt("Enter your number: "));
-  const number2 = parsInt(prompt("enter another number:"));
-  
